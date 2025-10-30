@@ -86,3 +86,17 @@ ol {
   align-items: flex-end;
   justify-content: space-between;
 }
+
+.content__list-container {
+  position: relative;
+  block-size: 298px;
+  overflow: auto;
+  padding: 2px;
+  gap: 30px;
+}
+
+.result__video-container {
+  width: 711px;
+  height: 386px;
+  position: relative;
+}
