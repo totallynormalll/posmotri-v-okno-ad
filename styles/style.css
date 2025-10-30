@@ -146,3 +146,15 @@ ol {
   width: 194px;
   height: 103px;
 }
+
+.content__video-card-title {
+  /* подзаголовок видеокарточки с ... */
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 196px;
+}
