@@ -115,3 +115,15 @@ ol {
   flex-direction: column;
   gap: 22px;
 }
+
+.content__list-item {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.content__video-card {
+  display: flex;
+  flex-direction:row;
+  color: #fff;
+  background-color: transparent;
+}
