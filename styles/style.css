@@ -109,3 +109,9 @@ ol {
   object-position: center;
   cursor: pointer;
 }
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
