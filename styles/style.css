@@ -137,3 +137,12 @@ ol {
 .content__card-link:active {
   background-color: #545050;
 }
+
+
+.content__video-card-thumbnail {
+  /* видео для видеокарточки */
+  object-fit:cover;
+  object-position: center;
+  width: 194px;
+  height: 103px;
+}
