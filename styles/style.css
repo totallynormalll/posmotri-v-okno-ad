@@ -79,3 +79,10 @@ ol {
   gap: 26px;
   grid-area: details;
 }
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
