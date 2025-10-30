@@ -158,3 +158,17 @@ ol {
   text-overflow: ellipsis;
   width: 196px;
 }
+
+.content__video-card-description {
+  /* описание видеокарточки с ... */
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16.2px;
+  width: 196px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
