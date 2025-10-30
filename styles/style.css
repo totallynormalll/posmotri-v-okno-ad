@@ -54,13 +54,14 @@ ol {
 }
 
 .content {
-  width: 1140px;
-  height: 564px;
-  padding: 133px 30px;
+  /*width: 1140px;*/
+  /*height: 564px;*/
+  /*padding: 133px 30px;*/
   display: grid;
   grid-template-areas: "result details";
   align-items: end;
-  column-gap: 30%;
+  grid-template-columns: 711px 399px;
+  gap: 30px;
 }
 
 .result {
