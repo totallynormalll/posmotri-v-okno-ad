@@ -172,3 +172,12 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.content__video-card-description-container {
+  /* левая часть видеокарточки с текстом */
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
